@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Discount Calculator</h1>
+        <div class="input-group">
+            <label for="bill">Bill Amount</label>
+            <input type="number" placeholder="e.g N500" id="bill">
+        </div>
+        <div class="input-group">
+            <label for="discount">Discount Percentage</label>
+            <input type="number" placeholder="e.g 10" id="discount">
+        </div>
+        <button id="click" onclick="calculateDiscount()">Calculate Discount</button>
+        <div id="discountBox">
+            <h2 id="result">Your Discount will appear here</h2>
+        </div>
+        <div id="resultBox">
+            <h2 id="total">Your Total will appear here</h2>
+        </div>
+    </div>
+</body>
+</html>
